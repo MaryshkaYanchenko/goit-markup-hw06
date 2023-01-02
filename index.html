@@ -448,10 +448,11 @@
           </ul>
         </div>
         
-          <form  name="footer-form" autocomplete="on">
-             <h2 class="form-title">Підпишіться на розсилку</h2>
+        <div class="form-footer">
+          <p class="form-title">Підпишіться на розсилку</p>
+            <form  class="form" name="footer-form" autocomplete="on">
              <label for="email-footer"></label>
-              <div class="footer-form">
+              
                   <input
                   class="form-footer-input"
                   id="email-footer"
@@ -465,8 +466,8 @@
                     <use href="./images/icons.svg#icon-send"></use>
                   </svg>
                 </button>
-             </div>
-          </form>
+            </form>
+        </div>
        
       </div>
 
@@ -476,7 +477,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <div class="modal-container">
-          <h2 class="modal-title" >Залиште свої дані, ми вам передзвонимо</h2>
+          <h3 class="modal-title" >Залиште свої дані, ми вам передзвонимо</h3>
           <button type="button" class="close-button" data-modal-close>
             <svg class="close-icon" widht="18" height="18">
               <use href="./images/icons.svg#icon-close-black"></use>
@@ -534,7 +535,7 @@
             <div class="form-field-checkbox checkbox">
               
 
-            <label for="terms-checkbox">
+            <label class="checkbox-label" for="terms-checkbox">
             <input
               class="checkbox-input"
               id="terms-checkbox"
